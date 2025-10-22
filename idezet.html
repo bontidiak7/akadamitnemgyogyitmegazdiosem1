@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Idézetek1</title>
+  <link rel="stylesheet" href="idezet.css">
+</head>
+<body>
+  <div class="container">
+    <div class="idezet-doboz">
+      <p id="idezet-szoveg"></p>
+      <p id="idezet-szerzo" class="szerzo"></p>
+      <div class="gombok">
+        <button id="bal-gomb" class="lepteto-gomb" title="Előző"><span class="nyil">&#8592;</span></button>
+        <button id="kedvenc-gomb" class="kedvenc-gomb">Kedvencekhez adás</button>
+        <button id="jobb-gomb" class="lepteto-gomb" title="Következő"><span class="nyil">&#8594;</span></button>
+      </div>
+    </div>
+    <div class="kedvencek-szekcio">
+      <h3>Kedvenc idézeteid:</h3>
+      <ul id="kedvencek-lista"></ul>
+    </div>
+  </div>
+  <script src="idezet.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 39px;
+}
+.idezet-doboz {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 400px;
+  min-height: 180px;
+  padding: 32px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+#idezet-szoveg {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.szerzo {
+  font-size: 1em;
+  color: #888;
+  margin-bottom: 18px;
+}
+.gombok {
+  display: flex;
+  gap: 16px;
+}
+.lepteto-gomb {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.lepteto-gomb:disabled {
+  background: #cccccc;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.kedvenc-gomb {
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.kedvenc-gomb:hover {
+  background: #ff9800;
+}
+.kedvencek-szekcio {
+  width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  padding: 18px 20px;
+}
+#kedvencek-lista {
+  margin-top: 8px;
+  padding-left: 18px;
+}
+#kedvencek-lista li {
+  margin-bottom: 6px;
+  font-size: 1em;
+}
